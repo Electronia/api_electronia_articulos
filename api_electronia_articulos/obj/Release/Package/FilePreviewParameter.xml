@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="detocho" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\websites\\api_electronia_articulos\\api_electronia_articulos\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\websites\\api_electronia_articulos\\api_electronia_articulos\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>

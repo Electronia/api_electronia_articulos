@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>detocho.com.mx</title>
+    @Styles.Render("~/Content/themes/base/css", "~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+   	<div id="mainHeader">
+    		<div id="headerContent">
+                   <div id="header">
+                       <h1>
+                       <a href="http://detocho.azurewebsites.net/" class="headerLogo">electronia</a>
+                       </h1>
+                       
+                       <div id="headerLink">
+                          <h1>API Desarrolladores</h1>
+                       </div>
+                      
+                  </div>
+             </div>
+    		
+    	</div>
+    	<div id="mainContainer"> 
+        	<div id="subMainContainer">
+                @RenderBody()
+
+        		<div id="headerMenu">
+                   <ul>
+                      <li><a class="active"  href="">Inicio</a></li>
+                      <li><a href="">Nuestras API´s</a></li>
+                      <li><a href="">Documentación</a></li>
+                      <li><a href="">Descaragas</a></li>
+                      <li><a href="">Unete</a></li>
+                   </ul>
+                   
+                </div>
+                <div id="subContainer">
+                <div id="imagenLogo"></div>
+                <div id="Novedades">
+                	<p><span>Novedades</span></p>
+                	<p>
+                		Estamos abriendo nuestra plataforma de comercio electrónico, con la finalidad
+de emprender nuevas ideas y hacer el comercio electronico a nuestra manera.<br><br>
+
+Te imaginas una plataforma de comercio electronico, donde tu decidas, que comparar, que vender y mejor aun con un estilo de navegavilidad ppersonalizado..
+                	</p>
+                	<p>
+                		<ul>
+                      		<li><a href="">Conoce mas ...</a></li>
+                      		<li><a href="">Desarrolladores</a></li>
+                      		<li><a href="">Socios</a></li>
+                      		
+                   		</ul>
+                	</p>
+                </div>
+                </div>
+                
+                
+        	</div>
+        </div>
+    	<div id="mainFooter">
+    		<div id="footer">
+            
+                   <div class="footer_izq">
+                        <ul>
+                            <li> <a href="">Sobre Electronia.com.mx</a>&nbsp;<b>|</b>&nbsp; </li>
+                            <li> <a href="">Terminos y Condiciones</a>&nbsp;<b>|</b>&nbsp;</li>
+                            <li> <a href="">Póliticas</a>&nbsp;<b>|</b>&nbsp;</li>
+                            <li> <a href="">Directorio</a>&nbsp;<b>|</b>&nbsp;</li>
+                            <li> <a href="">Sitios Relacionados</a></li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li>Siguenos en:</li>
+                            <li><a href="">Facebook</a>&nbsp;<b>|</b>&nbsp;</li>
+                            <li><a href="">Twiter</a></li>
+                        </ul>
+                        
+                   </div>
+                   <div class="footer_der">
+                        <div class="logoFooter"></div>
+                        <div class="derechosReservados">Todos los derechos reservados</div>
+                   </div>
+               
+           </div> 
+    	</div>
+
+    
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

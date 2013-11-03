@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="api.detocho.com.mx" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-03.2.0">
+  <Role name="webApiRol">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=detocho;AccountKey=4T+YbxbsbHCpON4mcfxmwPCwwJgmhL66ns94dWh34Mbhb+KEW3/ksXyUueFBvIkoDAd1Na0djtbCRXB2Q1dwug==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
